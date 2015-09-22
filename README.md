@@ -468,7 +468,7 @@ let's us check underscorejs how to implement _.map() method
         return results;
       };
     }).call(this);
-    ```
+```
 _.map() method, first time delegates to ECMAScript 5's native map if available then use native function and return new array "obj.map(iterator, context);", else use custom each iterator to iterated it; and push item to "results" variate ,when they finished iterated ,then,return results variate;
 
 here we go,
