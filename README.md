@@ -508,4 +508,5 @@ b = a.some(function(k, v, arr){
     return v;
     });
 console.log(b);
+
 ```
